@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files / secrets
+.env
+*.env
+secrets.json
+config.json
+
+# Raw/private Spotify data
+data/raw/
+data/processed/spotify_cleaned.csv
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
